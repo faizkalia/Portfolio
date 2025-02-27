@@ -19,7 +19,7 @@ const Form = () => {
             <div className="btn-group">
             <button className='btn' >Submit</button>
             <button className='btn'>
-              <a href="css_certificate.pdf" download="certificate.pdf">Download CV</a>
+              <a href="faiz_kalia_resume-fd.pdf" download="resume.pdf">Download CV</a>
               </button>
             </div>
             
