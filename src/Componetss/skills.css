@@ -1,0 +1,192 @@
+.skill-container{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+.skill-container h1{
+    text-align: center;
+    padding: 2rem 0;
+}
+.skill-section1,.skill-section2,.skill-section3{
+    display: flex;
+    justify-content: space-around; 
+}
+.skill-section2{
+    margin: 2rem 0 2rem 0;
+}
+.skill1,.skill2,.skill3,.skill4,.skill5,.skill6{
+    width: 100%;
+    max-width: 600px;
+}
+.skill-bar,.skill-bar2,.skill-bar3,.skill-bar4,.skill-bar5,.skill-bar6{
+    height: 14px;
+    background-color: black;
+}
+.skill-per,.skill-per2,.skill-per3,.skill-per4,.skill-per5,.skill-per6{
+    height: 14px;
+    background-color: #d13639;
+    position: relative;
+    color: black;
+    animation: fillbar 2.5s 1;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per2::before{
+    content: attr(per);
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per3::before{
+    content: attr(per);
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per4::before{
+    content: attr(per);
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per5::before{
+    content: attr(per);
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per6::before{
+    content: attr(per);
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 0.1rem 0.2rem;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translate(50%);
+}
+.skill-per::after{
+ content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 4px;
+}
+.skill-per2::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 4px;
+}
+.skill-per3::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 4px;
+}
+.skill-per4::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 4px;
+}
+.skill-per5::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 4px;
+}
+.skill-per6::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 4px;
+}
+@keyframes fillbar{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+/*--------------------media query----------------------------*/
+@media screen and (max-width:1115px) {
+    .skill-section1,.skill-section2,.skill-section3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        
+    }
+    .skill-section1,.skill-section2,.skill-section3{
+        gap: 2rem;
+    }
+    .skill3,.skill5{
+        margin-top: 2rem;
+    }
+   
+    .skill-section2{
+        margin: 0;
+    }
+}
