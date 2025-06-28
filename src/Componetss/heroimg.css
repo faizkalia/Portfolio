@@ -45,15 +45,19 @@
 }
 .btn{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 1.2rem;
     border: none;
     width: fit-content;
     background-color: rgb(14, 13, 13);
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
     cursor: pointer;
     
+}
+.pro-btns .btn{
+    width: 100%;
+    text-align: center;
 }
 .btn:hover{
     background-color: rgb(29, 28, 28);

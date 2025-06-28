@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from '../Componetss/Navbar'
 import Footer from '../Componetss/Footer'
 import Herobgproject from '../Componetss/Herobgproject'
