@@ -13,7 +13,7 @@ const ProjectCardData=[
         imgsrc:assets5.todolist,
         title: "Todo-List",
         text: "I developed an efficient to-do list application using React, enabling users to seamlessly manage their tasks. With a user-friendly interface and robust performance, it simplifies task organization and enhances productivity. Users can add tasks with descriptions and manage them with options to delete, update, or mark as completed.",
-        view:"http://127.0.0.1:5500/index.html"
+        view:"https://super-dusk-3900f2.netlify.app/"
     },
     {
         imgsrc: assets6.calculator,
